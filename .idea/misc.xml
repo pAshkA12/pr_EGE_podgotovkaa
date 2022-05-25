@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/year_project_pollapp/app/src/main/res/layout/activity_infr.xml" value="0.18802083333333333" />
+        <entry key="..\:/year_project_pollapp/app/src/main/res/layout/activity_kak_pisatt_ege.xml" value="0.25" />
+        <entry key="..\:/year_project_pollapp/app/src/main/res/layout/activity_kriterii.xml" value="0.23020833333333332" />
+        <entry key="..\:/year_project_pollapp/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/year_project_pollapp/app/src/main/res/layout/activity_main2.xml" value="0.18802083333333333" />
+        <entry key="..\:/year_project_pollapp/app/src/main/res/layout/activity_main3.xml" value="0.18802083333333333" />
+        <entry key="..\:/year_project_pollapp/app/src/main/res/layout/activity_math.xml" value="0.25" />
+        <entry key="..\:/year_project_pollapp/app/src/main/res/layout/activity_math_dop_forma.xml" value="0.33" />
+        <entry key="..\:/year_project_pollapp/app/src/main/res/layout/activity_mathm.xml" value="0.67" />
+        <entry key="..\:/year_project_pollapp/app/src/main/res/layout/activity_nastroiki.xml" value="0.33" />
+        <entry key="..\:/year_project_pollapp/app/src/main/res/layout/activity_pisat_ege.xml" value="0.33" />
+        <entry key="..\:/year_project_pollapp/app/src/main/res/layout/activity_poisk.xml" value="0.25" />
+        <entry key="..\:/year_project_pollapp/app/src/main/res/layout/activity_promej.xml" value="0.2953125" />
+        <entry key="..\:/year_project_pollapp/app/src/main/res/layout/activity_russ.xml" value="0.18802083333333333" />
+        <entry key="..\:/year_project_pollapp/app/src/main/res/layout/activity_spisok_ege.xml" value="0.5" />
+        <entry key="..\:/year_project_pollapp/app/src/main/res/layout/content_main.xml" value="0.3109375" />
+        <entry key="..\:/year_project_pollapp/app/src/main/res/layout/content_scrolling.xml" value="0.2" />
+        <entry key="..\:/year_project_pollapp/app/src/main/res/layout/fragment_first.xml" value="0.3109375" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

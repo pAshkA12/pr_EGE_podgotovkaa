@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".pisat_ege">
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="340dp"
+        android:layout_height="75dp"
+        android:text="ЕГЭ по русскому — 210, по профильной математике - 235, а по базовой математике — 180 минут."
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView8"
+        app:layout_constraintVertical_bias="0.022" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="375dp"
+        android:layout_height="69dp"
+        android:layout_marginTop="4dp"
+        android:text="Когда время истечёт, организаторы объявят об окончании экзамена и начнут собирать материалы. "
+        android:textAlignment="center"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView7" />
+
+    <Button
+        android:id="@+id/nazad5"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:drawableTop="@android:drawable/btn_dialog"
+
+        android:insetLeft="0dp"
+        android:insetTop="0dp"
+        android:insetRight="0dp"
+        android:insetBottom="0dp"
+        android:paddingLeft="0dp"
+        android:paddingEnd="1dp"
+
+        app:icon="@android:drawable/ic_menu_close_clear_cancel"
+        app:iconSize="37dp"
+        app:iconTint="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.957"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.022"
+        app:strokeColor="#00000000" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Правила написания ЕГЭ"
+        android:textSize="20sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.015" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="375dp"
+        android:layout_height="156dp"
+        android:gravity="center"
+        android:text="В день X к 9:00 по местному времени вы должны приехать в школу, оборудованную под пункт проведения экзамена (ППЭ). Если опоздаете, вас пустят, но время для написания работы не продлят и придётся разбираться с бланками без инструкций организаторов."
+        android:textAlignment="textStart"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.467"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.093" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="375dp"
+        android:layout_height="170dp"
+        android:gravity="center"
+        android:text="На входе в ППЭ у вас проверят паспорт и пропуск — для сдачи экзамена в том или ином пункте сначала нужно зарегистрироваться (выпускники заранее пишут заявления на специальных бланках, и школа централизованно подаёт их в государственную экзаменационную комиссию)."
+        android:textAlignment="textStart"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="375dp"
+        android:layout_height="201dp"
+        android:gravity="center"
+        android:text="После Инструктажа вам будут розданы пакеты с экзаменационными материалами, которые доставляются в ППЭ за несколько дней до экзамена. Организаторы должны вскрыть их на ваших глазах и раздать каждому участнику ОГЭ/ЕГЭ свой комплект, а также выдать черновики. По указанию организатора вы можете открыть бланки и приступить к их заполнению."
+        android:textAlignment="textStart"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView5"
+        app:layout_constraintVertical_bias="0.025" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

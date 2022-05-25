@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".ScrollingActivity"
+    tools:showIn="@layout/activity_scrolling">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/nazad5"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:drawableTop="@android:drawable/btn_dialog"
+
+                android:insetLeft="0dp"
+                android:insetTop="0dp"
+                android:insetRight="0dp"
+                android:insetBottom="0dp"
+                android:paddingLeft="0dp"
+                android:paddingEnd="1dp"
+
+                app:icon="@android:drawable/ic_menu_close_clear_cancel"
+                app:iconSize="37dp"
+                app:iconTint="#8AC3BD"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.957"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.022"
+                app:strokeColor="#00000000" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Правила написания ЕГЭ"
+                android:textSize="20sp"
+                android:textStyle="bold|italic"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.497"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.07" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TextView"
+                android:textAlignment="center"
+                android:textSize="18sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.498"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.115" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="413dp"
+                android:layout_height="141dp"
+                android:text="В день X к 9:00 по местному времени вы должны приехать в школу, оборудованную под пункт проведения экзамена (ППЭ). Если опоздаете, вас пустят, но время для написания работы не продлят и придётся разбираться с бланками без инструкций организаторов."
+                android:textAlignment="viewStart"
+                android:textSize="18sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView2"
+                app:layout_constraintVertical_bias="0.022" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="413dp"
+                android:layout_height="154dp"
+                android:text="На входе в ППЭ у вас проверят паспорт и пропуск — для сдачи экзамена в том или ином пункте сначала нужно зарегистрироваться (выпускники заранее пишут заявления на специальных бланках, и школа централизованно подаёт их в государственную экзаменационную комиссию)."
+                android:textSize="18sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="413dp"
+                android:layout_height="258dp"
+                android:text="Далее вам нужно пройти в свою аудиторию и У каждого участника ОГЭ/ЕГЭ должно быть отдельное рабочее место. Выбирать, куда сесть, нельзя — за рассадку отвечает организатор. В классах будут закрыты все стенды, плакаты и наглядные пособия. Все аудитории оборудуются системами видеонаблюдения! \n \n После рассадки последует инструктаж, его нужно слушать внимательно. Если возникли какие-либо вопросы ОБЯЗАТЕЛЬНО задавайте их организаторам! "
+                android:textSize="18sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView5"
+                app:layout_constraintVertical_bias="0.03" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="413dp"
+                android:layout_height="201dp"
+                android:text="После Инструктажа (описано выше) вам будут розданы пакеты с экзаменационными материалами, которые доставляются в ППЭ за несколько дней до экзамена. Организаторы должны вскрыть их на ваших глазах и раздать каждому участнику ОГЭ/ЕГЭ свой комплект, а также выдать черновики. По указанию организатора вы можете открыть бланки и приступить к их заполнению."
+                android:textSize="18sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView6"
+                app:layout_constraintVertical_bias="0.042" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="413dp"
+                android:layout_height="69dp"
+                android:layout_marginTop="28dp"
+                android:text="Когда время истечёт, организаторы объявят об окончании экзамена и начнут собирать материалы. "
+                android:textSize="18sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView7" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="340dp"
+                android:layout_height="75dp"
+                android:text="ЕГЭ по русскому — 210, по профильной математике - 235, а по базовой математике — 180 минут."
+                android:textAlignment="center"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.496"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView8"
+                app:layout_constraintVertical_bias="0.022" />
+
+            <Button
+                android:id="@+id/button4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="список продолжительности ЕГЭ по различным предметам"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.496"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView9"
+                app:layout_constraintVertical_bias="0.061" />
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.core.widget.NestedScrollView>
